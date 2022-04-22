@@ -1,0 +1,71 @@
+h1 { 
+    text-align: center;
+}
+
+body {
+    background-color: lightblue;
+}
+
+form {
+    text-align: center;
+}
+
+.pokemonCard {
+    width: 500px;
+    height: 600px;
+    background-color: gold;
+    border: solid 5px darkgoldenrod;
+    border-radius: 0%;
+    position: relative;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.pokemonImage {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+}
+
+.pokemonImageBox {
+    width: 400px;
+    height: 200px;
+    /* background-color:white ; */
+    border: solid 5px darkgoldenrod;
+    border-radius: 0%;
+    margin: auto;
+    top: 5%;
+}
+
+.headers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.headers h1:nth-of-type(2) {
+    float: right;
+    color: red;
+}
+
+.pokemonName {
+    text-align:left;
+    z-index: 1;
+}
+
+.pokemonHp {
+    text-align:right;
+    z-index: 1;
+}
+
+.physical {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.physical h1:nth-of-type(2) {
+    float: right;
+    color: black;
+}
